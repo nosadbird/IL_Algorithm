@@ -1,0 +1,38 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym\spaces\box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+[INFO] Connected to Unity environment with package version 2.3.0-exp.4 and communication version 1.5.0
+[INFO] Connected new brain: Worm?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+[WARNING] Could not seed environment Worm?team=0
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\torch\nn\functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Episode 0	Average reward: 0.00	num_step: 48.00	Loss (disc): 0.00
+e:/模仿学习/研究点1/pofo-worm/2IWIL.py:129: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:204.)
+  states = torch.Tensor(batch.state).to(device)
+Episode 1	Average reward: 0.00	num_step: 48.00	Loss (disc): 0.00
+Episode 2	Average reward: 0.00	num_step: 48.00	Loss (disc): 0.00
+Episode 3	Average reward: 0.13	num_step: 48.00	Loss (disc): 0.00
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 269, in <module>
+    next_state, true_reward, done, _ = env.step(action)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym_unity\envs\__init__.py", line 201, in step
+    self._env.step()
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\timers.py", line 305, in wrapped
+    return func(*args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 348, in step
+    outputs = self._communicator.exchange(step_input, self._poll_process)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 142, in exchange
+    self.poll_for_timeout(poll_callback)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 106, in poll_for_timeout
+    if self.unity_to_external.parent_conn.poll(callback_timeout_wait):
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 330, in _poll
+    return bool(wait([self], timeout))
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 868, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 800, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt

@@ -1,0 +1,58 @@
+2023-04-18 09:28:13,050 INFO    MainThread:7268 [internal.py:wandb_internal():93] W&B internal server running at pid: 7268, started at: 2023-04-18 09:28:13.049576
+2023-04-18 09:28:13,058 INFO    WriterThread:7268 [datastore.py:open_for_write():75] open: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\run-34nxvuf9.wandb
+2023-04-18 09:28:13,060 DEBUG   SenderThread:7268 [sender.py:send():232] send: header
+2023-04-18 09:28:13,060 DEBUG   SenderThread:7268 [sender.py:send():232] send: run
+2023-04-18 09:28:13,585 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: check_version
+2023-04-18 09:28:13,593 INFO    SenderThread:7268 [dir_watcher.py:__init__():197] watching files in: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files
+2023-04-18 09:28:13,593 INFO    SenderThread:7268 [sender.py:_start_run_threads():814] run started: 34nxvuf9 with start time 1681781292
+2023-04-18 09:28:13,594 DEBUG   SenderThread:7268 [sender.py:send():232] send: summary
+2023-04-18 09:28:13,594 INFO    SenderThread:7268 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-04-18 09:28:13,595 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: check_version
+2023-04-18 09:28:14,143 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: run_start
+2023-04-18 09:28:14,599 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\wandb-summary.json
+2023-04-18 09:28:16,868 DEBUG   HandlerThread:7268 [meta.py:__init__():35] meta init
+2023-04-18 09:28:16,868 DEBUG   HandlerThread:7268 [meta.py:__init__():49] meta init done
+2023-04-18 09:28:16,868 DEBUG   HandlerThread:7268 [meta.py:probe():209] probe
+2023-04-18 09:28:16,879 DEBUG   HandlerThread:7268 [git.py:repo():29] git repository is invalid
+2023-04-18 09:28:16,879 DEBUG   HandlerThread:7268 [meta.py:_save_pip():53] save pip
+2023-04-18 09:28:16,880 DEBUG   HandlerThread:7268 [meta.py:_save_pip():67] save pip done
+2023-04-18 09:28:16,880 DEBUG   HandlerThread:7268 [meta.py:probe():247] probe done
+2023-04-18 09:28:16,885 DEBUG   SenderThread:7268 [sender.py:send():232] send: files
+2023-04-18 09:28:16,885 INFO    SenderThread:7268 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-04-18 09:28:16,899 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:28:16,899 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:28:17,392 DEBUG   SenderThread:7268 [sender.py:send():232] send: telemetry
+2023-04-18 09:28:17,601 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\output.log
+2023-04-18 09:28:17,602 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\requirements.txt
+2023-04-18 09:28:17,602 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\wandb-metadata.json
+2023-04-18 09:28:17,967 INFO    Thread-20 :7268 [upload_job.py:push():132] Uploaded file C:\Users\ADMINI~1\AppData\Local\Temp\tmp8250zb6iwandb\3039jes6-wandb-metadata.json
+2023-04-18 09:28:19,605 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\output.log
+2023-04-18 09:28:32,438 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:28:32,439 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:28:44,632 INFO    Thread-16 :7268 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092811-34nxvuf9\files\config.yaml
+2023-04-18 09:28:45,148 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats
+2023-04-18 09:28:47,935 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:28:47,936 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:29:03,446 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:29:03,447 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:29:15,400 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats
+2023-04-18 09:29:18,952 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:29:18,953 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:29:34,454 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:29:34,455 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:29:45,649 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats
+2023-04-18 09:29:49,959 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:29:49,961 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:30:05,450 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:30:05,451 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:30:15,891 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats
+2023-04-18 09:30:20,888 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:30:20,889 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:30:36,320 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:30:36,320 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:30:46,137 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats
+2023-04-18 09:30:55,417 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:30:55,418 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:31:10,932 DEBUG   HandlerThread:7268 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:31:10,933 DEBUG   SenderThread:7268 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:31:16,397 DEBUG   SenderThread:7268 [sender.py:send():232] send: stats

@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.7.7rc1",
+    "heartbeatAt": "2023-04-19T13:43:46.812105",
+    "startedAt": "2023-04-19T13:43:43.490732",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "e:/\u6a21\u4eff\u5b66\u4e60/\u7814\u7a76\u70b91/pofo-worm/2IWIL.py",
+    "codePath": "2IWIL.py",
+    "host": "FP9-20210528KPW",
+    "username": "Administrator",
+    "executable": "D:\\ProgramingEnvirment\\python-3.7\\python.exe"
+}

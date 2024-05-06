@@ -1,0 +1,18 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 96, in <module>
+    unity_env = UnityEnvironment(env_path)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 236, in __init__
+    aca_output = self._send_academy_parameters(rl_init_parameters_in)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 492, in _send_academy_parameters
+    return self._communicator.initialize(inputs, self._poll_process)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 126, in initialize
+    self.poll_for_timeout(poll_callback)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 115, in poll_for_timeout
+    "The Unity environment took too long to respond. Make sure that :\n"
+mlagents_envs.exception.UnityTimeOutException: The Unity environment took too long to respond. Make sure that :
+	 The environment does not need user interaction to launch
+	 The Agents' Behavior Parameters > Behavior Type is set to "Default"
+	 The environment and the Python interface have compatible versions.
+	 If you're running on a headless server without graphics support, turn off display by either passing --no-graphics option or build your Unity executable as server build.

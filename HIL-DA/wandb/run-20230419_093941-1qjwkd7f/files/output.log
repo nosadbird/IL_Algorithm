@@ -1,0 +1,22 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 96, in <module>
+    unity_env = UnityEnvironment(env_path)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 236, in __init__
+    aca_output = self._send_academy_parameters(rl_init_parameters_in)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 492, in _send_academy_parameters
+    return self._communicator.initialize(inputs, self._poll_process)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 126, in initialize
+    self.poll_for_timeout(poll_callback)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\rpc_communicator.py", line 106, in poll_for_timeout
+    if self.unity_to_external.parent_conn.poll(callback_timeout_wait):
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 330, in _poll
+    return bool(wait([self], timeout))
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 868, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "D:\ProgramingEnvirment\python-3.7\lib\multiprocessing\connection.py", line 800, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt

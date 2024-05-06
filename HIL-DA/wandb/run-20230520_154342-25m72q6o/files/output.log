@@ -1,0 +1,202 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym\logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\torch\nn\functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[INFO] Connected to Unity environment with package version 2.2.1-exp.1 and communication version 1.5.0
+[INFO] Connected new brain: RosCar?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+[WARNING] Could not seed environment RosCar?team=0
+e:/模仿学习/研究点1/pofo-unity/2IWIL.py:124: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:204.)
+  states = torch.Tensor(batch.state).to(device)
+Episode 0	Average reward: -34.58	num_step: 1081.00	Loss (disc): 0.00
+Episode 1	Average reward: -39.00	num_step: 1228.00	Loss (disc): 0.00
+Episode 2	Average reward: -40.00	num_step: 1328.00	Loss (disc): 0.00
+Episode 3	Average reward: -40.66	num_step: 1283.00	Loss (disc): 0.00
+Episode 4	Average reward: -45.30	num_step: 1302.00	Loss (disc): 0.00
+Episode 5	Average reward: -37.04	num_step: 1163.00	Loss (disc): 0.00
+Episode 6	Average reward: -44.28	num_step: 1269.00	Loss (disc): 0.00
+Episode 7	Average reward: -58.61	num_step: 1272.00	Loss (disc): 0.00
+Episode 8	Average reward: -52.64	num_step: 1211.00	Loss (disc): 0.00
+Episode 9	Average reward: -49.92	num_step: 1188.00	Loss (disc): 0.00
+Episode 10	Average reward: -43.12	num_step: 1025.00	Loss (disc): 0.00
+Episode 11	Average reward: -51.07	num_step: 1090.00	Loss (disc): 0.00
+Episode 12	Average reward: -56.43	num_step: 1131.00	Loss (disc): 0.00
+Episode 13	Average reward: -69.14	num_step: 1148.00	Loss (disc): 0.00
+Episode 14	Average reward: -68.70	num_step: 1065.00	Loss (disc): 0.00
+Episode 15	Average reward: -52.52	num_step: 1205.00	Loss (disc): 0.00
+Episode 16	Average reward: -42.07	num_step: 1060.00	Loss (disc): 0.00
+Episode 17	Average reward: -50.74	num_step: 1146.00	Loss (disc): 0.00
+Episode 18	Average reward: -44.33	num_step: 1000.00	Loss (disc): 0.00
+Episode 19	Average reward: -52.37	num_step: 1201.00	Loss (disc): 0.00
+Episode 20	Average reward: -32.41	num_step: 1008.00	Loss (disc): 0.00
+Episode 21	Average reward: -50.46	num_step: 1135.00	Loss (disc): 0.00
+Episode 22	Average reward: -54.91	num_step: 1147.00	Loss (disc): 0.00
+Episode 23	Average reward: -62.18	num_step: 1189.00	Loss (disc): 0.00
+Episode 24	Average reward: -30.71	num_step: 1015.00	Loss (disc): 0.00
+Episode 25	Average reward: -49.52	num_step: 1106.00	Loss (disc): 0.00
+Episode 26	Average reward: -42.69	num_step: 1082.00	Loss (disc): 0.00
+Episode 27	Average reward: -42.47	num_step: 1074.00	Loss (disc): 0.00
+Episode 28	Average reward: -42.55	num_step: 1278.00	Loss (disc): 0.00
+Episode 29	Average reward: -35.93	num_step: 1191.00	Loss (disc): 0.00
+Episode 30	Average reward: -34.44	num_step: 1072.00	Loss (disc): 0.00
+Episode 31	Average reward: -16.88	num_step: 1015.00	Loss (disc): 0.00
+Episode 32	Average reward: -39.91	num_step: 1051.00	Loss (disc): 0.00
+Episode 33	Average reward: -46.96	num_step: 1020.00	Loss (disc): 0.00
+Episode 34	Average reward: -55.96	num_step: 1048.00	Loss (disc): 0.00
+Episode 35	Average reward: -54.50	num_step: 1001.00	Loss (disc): 0.00
+Episode 36	Average reward: -62.00	num_step: 1114.00	Loss (disc): 0.00
+Episode 37	Average reward: -35.09	num_step: 1017.00	Loss (disc): 0.00
+Episode 38	Average reward: -44.53	num_step: 1001.00	Loss (disc): 0.00
+Episode 39	Average reward: -35.39	num_step: 1095.00	Loss (disc): 0.00
+Episode 40	Average reward: -45.75	num_step: 1249.00	Loss (disc): 0.00
+Episode 41	Average reward: -51.30	num_step: 1028.00	Loss (disc): 0.00
+Episode 42	Average reward: -37.61	num_step: 1034.00	Loss (disc): 0.00
+Episode 43	Average reward: -43.23	num_step: 1226.00	Loss (disc): 0.00
+Episode 44	Average reward: -38.80	num_step: 1003.00	Loss (disc): 0.00
+Episode 45	Average reward: -58.96	num_step: 1071.00	Loss (disc): 0.00
+Episode 46	Average reward: -68.50	num_step: 1116.00	Loss (disc): 0.00
+Episode 47	Average reward: -55.46	num_step: 1025.00	Loss (disc): 0.00
+Episode 48	Average reward: -59.34	num_step: 1018.00	Loss (disc): 0.00
+Episode 49	Average reward: -78.49	num_step: 1052.00	Loss (disc): 0.00
+Episode 50	Average reward: -71.00	num_step: 1007.00	Loss (disc): 0.00
+Episode 51	Average reward: -72.15	num_step: 1046.00	Loss (disc): 0.00
+Episode 52	Average reward: -80.38	num_step: 1045.00	Loss (disc): 0.00
+Episode 53	Average reward: -73.26	num_step: 1015.00	Loss (disc): 0.00
+Episode 54	Average reward: -72.17	num_step: 1045.00	Loss (disc): 0.00
+Episode 55	Average reward: -73.20	num_step: 1011.00	Loss (disc): 0.00
+Episode 56	Average reward: -78.10	num_step: 1039.00	Loss (disc): 0.00
+Episode 57	Average reward: -73.87	num_step: 1035.00	Loss (disc): 0.00
+Episode 58	Average reward: -78.04	num_step: 1037.00	Loss (disc): 0.00
+Episode 59	Average reward: -79.93	num_step: 1031.00	Loss (disc): 0.00
+Episode 60	Average reward: -81.98	num_step: 1035.00	Loss (disc): 0.00
+Episode 61	Average reward: -82.12	num_step: 1039.00	Loss (disc): 0.00
+Episode 62	Average reward: -84.50	num_step: 1048.00	Loss (disc): 0.00
+Episode 63	Average reward: -62.74	num_step: 1002.00	Loss (disc): 0.00
+Episode 64	Average reward: -57.47	num_step: 1015.00	Loss (disc): 0.00
+Episode 65	Average reward: -73.11	num_step: 1001.00	Loss (disc): 0.00
+Episode 66	Average reward: -71.33	num_step: 1008.00	Loss (disc): 0.00
+Episode 67	Average reward: -83.47	num_step: 1014.00	Loss (disc): 0.00
+Episode 68	Average reward: -83.30	num_step: 1011.00	Loss (disc): 0.00
+Episode 69	Average reward: -87.51	num_step: 1014.00	Loss (disc): 0.00
+Episode 70	Average reward: -83.05	num_step: 1002.00	Loss (disc): 0.00
+Episode 71	Average reward: -83.76	num_step: 1024.00	Loss (disc): 0.00
+Episode 72	Average reward: -87.15	num_step: 1000.00	Loss (disc): 0.00
+Episode 73	Average reward: -75.87	num_step: 1024.00	Loss (disc): 0.00
+Episode 74	Average reward: -75.77	num_step: 1020.00	Loss (disc): 0.00
+Episode 75	Average reward: -85.41	num_step: 1011.00	Loss (disc): 0.00
+Episode 76	Average reward: -63.86	num_step: 1025.00	Loss (disc): 0.00
+Episode 77	Average reward: -85.22	num_step: 1005.00	Loss (disc): 0.00
+Episode 78	Average reward: -73.91	num_step: 1026.00	Loss (disc): 0.00
+Episode 79	Average reward: -69.19	num_step: 1008.00	Loss (disc): 0.00
+Episode 80	Average reward: -61.20	num_step: 1006.00	Loss (disc): 0.00
+Episode 81	Average reward: -69.25	num_step: 1009.00	Loss (disc): 0.00
+Episode 82	Average reward: -61.66	num_step: 1020.00	Loss (disc): 0.00
+Episode 83	Average reward: -47.24	num_step: 1009.00	Loss (disc): 0.00
+Episode 84	Average reward: -33.49	num_step: 1013.00	Loss (disc): 0.00
+Episode 85	Average reward: -57.68	num_step: 1020.00	Loss (disc): 0.00
+Episode 86	Average reward: -67.56	num_step: 1018.00	Loss (disc): 0.00
+Episode 87	Average reward: -36.08	num_step: 1037.00	Loss (disc): 0.00
+Episode 88	Average reward: -45.09	num_step: 1002.00	Loss (disc): 0.00
+Episode 89	Average reward: -74.12	num_step: 1034.00	Loss (disc): 0.00
+Episode 90	Average reward: -81.88	num_step: 1029.00	Loss (disc): 0.00
+Episode 91	Average reward: -86.01	num_step: 1031.00	Loss (disc): 0.00
+Episode 92	Average reward: -85.33	num_step: 1007.00	Loss (disc): 0.00
+Episode 93	Average reward: -79.41	num_step: 1015.00	Loss (disc): 0.00
+Episode 94	Average reward: -86.20	num_step: 1037.00	Loss (disc): 0.00
+Episode 95	Average reward: -89.79	num_step: 1019.00	Loss (disc): 0.00
+Episode 96	Average reward: -90.04	num_step: 1028.00	Loss (disc): 0.00
+Episode 97	Average reward: -87.83	num_step: 1026.00	Loss (disc): 0.00
+Episode 98	Average reward: -87.73	num_step: 1019.00	Loss (disc): 0.00
+Episode 99	Average reward: -83.32	num_step: 1009.00	Loss (disc): 0.00
+Episode 100	Average reward: -85.93	num_step: 1028.00	Loss (disc): 0.00
+Episode 101	Average reward: -90.00	num_step: 1029.00	Loss (disc): 0.00
+Episode 102	Average reward: -85.64	num_step: 1019.00	Loss (disc): 0.00
+Episode 103	Average reward: -89.50	num_step: 1013.00	Loss (disc): 0.00
+Episode 104	Average reward: -87.56	num_step: 1014.00	Loss (disc): 0.00
+Episode 105	Average reward: -85.17	num_step: 1004.00	Loss (disc): 0.00
+Episode 106	Average reward: -87.70	num_step: 1018.00	Loss (disc): 0.00
+Episode 107	Average reward: -91.64	num_step: 1016.00	Loss (disc): 0.00
+Episode 108	Average reward: -85.31	num_step: 1007.00	Loss (disc): 0.00
+Episode 109	Average reward: -85.22	num_step: 1004.00	Loss (disc): 0.00
+Episode 110	Average reward: -75.62	num_step: 1018.00	Loss (disc): 0.00
+Episode 111	Average reward: -85.53	num_step: 1015.00	Loss (disc): 0.00
+Episode 112	Average reward: -87.74	num_step: 1020.00	Loss (disc): 0.00
+Episode 113	Average reward: -85.03	num_step: 1001.00	Loss (disc): 0.00
+Episode 114	Average reward: -87.33	num_step: 1007.00	Loss (disc): 0.00
+Episode 115	Average reward: -87.82	num_step: 1023.00	Loss (disc): 0.00
+Episode 116	Average reward: -87.15	num_step: 1000.00	Loss (disc): 0.00
+Episode 117	Average reward: -89.91	num_step: 1025.00	Loss (disc): 0.00
+Episode 118	Average reward: -87.80	num_step: 1024.00	Loss (disc): 0.00
+Episode 119	Average reward: -88.07	num_step: 1033.00	Loss (disc): 0.00
+Episode 120	Average reward: -87.65	num_step: 1020.00	Loss (disc): 0.00
+Episode 121	Average reward: -83.14	num_step: 1003.00	Loss (disc): 0.00
+Episode 122	Average reward: -69.10	num_step: 1004.00	Loss (disc): 0.00
+Episode 123	Average reward: -81.11	num_step: 1004.00	Loss (disc): 0.00
+Episode 124	Average reward: -67.62	num_step: 1021.00	Loss (disc): 0.00
+Episode 125	Average reward: -32.06	num_step: 1039.00	Loss (disc): 0.00
+Episode 126	Average reward: -67.05	num_step: 1003.00	Loss (disc): 0.00
+Episode 127	Average reward: -57.39	num_step: 1013.00	Loss (disc): 0.00
+Episode 128	Average reward: -81.10	num_step: 1005.00	Loss (disc): 0.00
+Episode 129	Average reward: -63.92	num_step: 1027.00	Loss (disc): 0.00
+Episode 130	Average reward: -83.66	num_step: 1022.00	Loss (disc): 0.00
+Episode 131	Average reward: -68.99	num_step: 1001.00	Loss (disc): 0.00
+Episode 132	Average reward: -83.44	num_step: 1013.00	Loss (disc): 0.00
+Episode 133	Average reward: -87.67	num_step: 1020.00	Loss (disc): 0.00
+Episode 134	Average reward: -63.92	num_step: 1027.00	Loss (disc): 0.00
+Episode 135	Average reward: -87.37	num_step: 1007.00	Loss (disc): 0.00
+Episode 136	Average reward: -87.33	num_step: 1006.00	Loss (disc): 0.00
+Episode 137	Average reward: -85.05	num_step: 1000.00	Loss (disc): 0.00
+Episode 138	Average reward: -87.77	num_step: 1025.00	Loss (disc): 0.00
+Episode 139	Average reward: -83.30	num_step: 1011.00	Loss (disc): 0.00
+Episode 140	Average reward: -83.28	num_step: 1009.00	Loss (disc): 0.00
+Episode 141	Average reward: -80.02	num_step: 1035.00	Loss (disc): 0.00
+Episode 142	Average reward: -49.69	num_step: 1030.00	Loss (disc): 0.00
+Episode 143	Average reward: -56.85	num_step: 1002.00	Loss (disc): 0.00
+Episode 144	Average reward: -80.05	num_step: 1038.00	Loss (disc): 0.00
+Episode 145	Average reward: -84.16	num_step: 1038.00	Loss (disc): 0.00
+Episode 146	Average reward: -79.82	num_step: 1028.00	Loss (disc): 0.00
+Episode 147	Average reward: -69.83	num_step: 1026.00	Loss (disc): 0.00
+Episode 148	Average reward: -55.23	num_step: 1009.00	Loss (disc): 0.00
+Episode 149	Average reward: -67.81	num_step: 1029.00	Loss (disc): 0.00
+Episode 150	Average reward: -77.88	num_step: 1033.00	Loss (disc): 0.00
+Episode 151	Average reward: -51.48	num_step: 1021.00	Loss (disc): 0.00
+Episode 152	Average reward: -69.85	num_step: 1029.00	Loss (disc): 0.00
+Episode 153	Average reward: -79.10	num_step: 1004.00	Loss (disc): 0.00
+Episode 154	Average reward: -73.12	num_step: 1002.00	Loss (disc): 0.00
+Episode 155	Average reward: -74.08	num_step: 1033.00	Loss (disc): 0.00
+Episode 156	Average reward: -67.53	num_step: 1020.00	Loss (disc): 0.00
+Episode 157	Average reward: -59.62	num_step: 1022.00	Loss (disc): 0.00
+Episode 158	Average reward: -85.72	num_step: 1023.00	Loss (disc): 0.00
+Episode 159	Average reward: -57.82	num_step: 1029.00	Loss (disc): 0.00
+Episode 160	Average reward: -62.09	num_step: 1032.00	Loss (disc): 0.00
+Episode 161	Average reward: -58.26	num_step: 1042.00	Loss (disc): 0.00
+Episode 162	Average reward: -62.00	num_step: 1031.00	Loss (disc): 0.00
+Episode 163	Average reward: -43.36	num_step: 1014.00	Loss (disc): 0.00
+Episode 164	Average reward: -71.14	num_step: 1003.00	Loss (disc): 0.00
+Episode 165	Average reward: -57.55	num_step: 1017.00	Loss (disc): 0.00
+Episode 166	Average reward: -49.98	num_step: 1029.00	Loss (disc): 0.00
+Episode 167	Average reward: -49.72	num_step: 1020.00	Loss (disc): 0.00
+Episode 168	Average reward: -83.13	num_step: 1005.00	Loss (disc): 0.00
+Episode 169	Average reward: -75.50	num_step: 1011.00	Loss (disc): 0.00
+Episode 170	Average reward: -85.39	num_step: 1010.00	Loss (disc): 0.00
+Episode 171	Average reward: -69.00	num_step: 1000.00	Loss (disc): 0.00
+Episode 172	Average reward: -61.52	num_step: 1015.00	Loss (disc): 0.00
+Episode 173	Average reward: -55.50	num_step: 1018.00	Loss (disc): 0.00
+Episode 174	Average reward: -53.58	num_step: 1022.00	Loss (disc): 0.00
+Episode 175	Average reward: -32.05	num_step: 1035.00	Loss (disc): 0.00
+Episode 176	Average reward: -9.33	num_step: 1011.00	Loss (disc): 0.00
+Episode 177	Average reward: -59.77	num_step: 1026.00	Loss (disc): 0.00
+Episode 178	Average reward: -85.03	num_step: 1000.00	Loss (disc): 0.00
+Episode 179	Average reward: -85.90	num_step: 1030.00	Loss (disc): 0.00
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-unity/2IWIL.py", line 264, in <module>
+    next_state, true_reward, done, _ = env.step(action)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym_unity\envs\__init__.py", line 201, in step
+    self._env.step()
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\timers.py", line 305, in wrapped
+    return func(*args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 350, in step
+    raise UnityCommunicatorStoppedException("Communicator has exited.")
+mlagents_envs.exception.UnityCommunicatorStoppedException: Communicator has exited.

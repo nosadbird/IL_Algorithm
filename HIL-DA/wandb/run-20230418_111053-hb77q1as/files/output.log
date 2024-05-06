@@ -1,0 +1,85 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym\spaces\box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\torch\nn\functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[INFO] Connected to Unity environment with package version 2.3.0-exp.4 and communication version 1.5.0
+[INFO] Connected new brain: Worm?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+[WARNING] Could not seed environment Worm?team=0
+e:/模仿学习/研究点1/pofo-worm/2IWIL.py:129: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:204.)
+  states = torch.Tensor(batch.state).to(device)
+Episode 0	Average reward: 0.00	num_step: 2490.00	Loss (disc): 0.00
+Episode 1	Average reward: 0.94	num_step: 2490.00	Loss (disc): 0.00
+Episode 2	Average reward: 0.12	num_step: 2490.00	Loss (disc): 0.00
+Episode 3	Average reward: 0.61	num_step: 2490.00	Loss (disc): 0.00
+Episode 4	Average reward: 2.27	num_step: 2490.00	Loss (disc): 0.00
+Episode 5	Average reward: 0.29	num_step: 2490.00	Loss (disc): 0.00
+Episode 6	Average reward: 0.48	num_step: 2490.00	Loss (disc): 0.00
+Episode 7	Average reward: 0.21	num_step: 2490.00	Loss (disc): 0.00
+Episode 8	Average reward: 0.12	num_step: 2490.00	Loss (disc): 0.00
+Episode 9	Average reward: 0.22	num_step: 2490.00	Loss (disc): 0.00
+Episode 10	Average reward: 0.76	num_step: 2490.00	Loss (disc): 0.00
+Episode 11	Average reward: 0.69	num_step: 2490.00	Loss (disc): 0.00
+Episode 12	Average reward: 0.61	num_step: 2490.00	Loss (disc): 0.00
+Episode 13	Average reward: 0.16	num_step: 2490.00	Loss (disc): 0.00
+Episode 14	Average reward: 0.42	num_step: 2490.00	Loss (disc): 0.00
+Episode 15	Average reward: 0.50	num_step: 2490.00	Loss (disc): 0.00
+Episode 16	Average reward: 0.31	num_step: 2490.00	Loss (disc): 0.00
+Episode 17	Average reward: 0.18	num_step: 2490.00	Loss (disc): 0.00
+Episode 18	Average reward: 0.72	num_step: 2490.00	Loss (disc): 0.00
+Episode 19	Average reward: 0.67	num_step: 2490.00	Loss (disc): 0.00
+Episode 20	Average reward: 0.42	num_step: 2490.00	Loss (disc): 0.00
+Episode 21	Average reward: 1.50	num_step: 2490.00	Loss (disc): 0.00
+Episode 22	Average reward: 0.55	num_step: 2490.00	Loss (disc): 0.00
+Episode 23	Average reward: 0.99	num_step: 2490.00	Loss (disc): 0.00
+Episode 24	Average reward: 0.19	num_step: 2490.00	Loss (disc): 0.00
+Episode 25	Average reward: 0.95	num_step: 2490.00	Loss (disc): 0.00
+Episode 26	Average reward: 0.62	num_step: 2490.00	Loss (disc): 0.00
+Episode 27	Average reward: 0.17	num_step: 2490.00	Loss (disc): 0.00
+Episode 28	Average reward: 0.20	num_step: 2490.00	Loss (disc): 0.00
+Episode 29	Average reward: 0.87	num_step: 2490.00	Loss (disc): 0.00
+Episode 30	Average reward: 0.15	num_step: 2490.00	Loss (disc): 0.00
+Episode 31	Average reward: 0.26	num_step: 2490.00	Loss (disc): 0.00
+Episode 32	Average reward: 0.15	num_step: 2490.00	Loss (disc): 0.00
+Episode 33	Average reward: 0.70	num_step: 2490.00	Loss (disc): 0.00
+Episode 34	Average reward: 0.63	num_step: 2490.00	Loss (disc): 0.00
+Episode 35	Average reward: 0.48	num_step: 2490.00	Loss (disc): 0.00
+Episode 36	Average reward: 0.08	num_step: 2490.00	Loss (disc): 0.00
+Episode 37	Average reward: 0.34	num_step: 2490.00	Loss (disc): 0.00
+Episode 38	Average reward: 0.24	num_step: 2490.00	Loss (disc): 0.00
+Episode 39	Average reward: 0.93	num_step: 2490.00	Loss (disc): 0.00
+Episode 40	Average reward: 0.85	num_step: 2490.00	Loss (disc): 0.00
+Episode 41	Average reward: 0.97	num_step: 2490.00	Loss (disc): 0.00
+Episode 42	Average reward: 0.17	num_step: 2490.00	Loss (disc): 0.00
+Episode 43	Average reward: 0.18	num_step: 2490.00	Loss (disc): 0.00
+Episode 44	Average reward: 0.43	num_step: 2490.00	Loss (disc): 0.00
+Episode 45	Average reward: 0.66	num_step: 2490.00	Loss (disc): 0.00
+Episode 46	Average reward: 0.18	num_step: 2490.00	Loss (disc): 0.00
+Episode 47	Average reward: 0.88	num_step: 2490.00	Loss (disc): 0.00
+Episode 48	Average reward: 0.81	num_step: 2490.00	Loss (disc): 0.00
+Episode 49	Average reward: 0.51	num_step: 2490.00	Loss (disc): 0.00
+Episode 50	Average reward: 0.26	num_step: 2490.00	Loss (disc): 0.00
+Episode 51	Average reward: 0.54	num_step: 2490.00	Loss (disc): 0.00
+Episode 52	Average reward: 0.11	num_step: 2490.00	Loss (disc): 0.00
+Episode 53	Average reward: 0.87	num_step: 2490.00	Loss (disc): 0.00
+Episode 54	Average reward: 0.06	num_step: 2490.00	Loss (disc): 0.00
+Episode 55	Average reward: 0.37	num_step: 2490.00	Loss (disc): 0.00
+Episode 56	Average reward: 0.71	num_step: 2490.00	Loss (disc): 0.00
+Episode 57	Average reward: 1.14	num_step: 2490.00	Loss (disc): 0.00
+Episode 58	Average reward: 0.07	num_step: 2490.00	Loss (disc): 0.00
+Episode 59	Average reward: 0.97	num_step: 2490.00	Loss (disc): 0.00
+Episode 60	Average reward: 0.66	num_step: 2490.00	Loss (disc): 0.00
+Episode 61	Average reward: 0.64	num_step: 2490.00	Loss (disc): 0.00
+Episode 62	Average reward: 0.21	num_step: 2490.00	Loss (disc): 0.00
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 269, in <module>
+    next_state, true_reward, done, _ = env.step(action)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym_unity\envs\__init__.py", line 201, in step
+    self._env.step()
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\timers.py", line 305, in wrapped
+    return func(*args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\mlagents_envs\environment.py", line 350, in step
+    raise UnityCommunicatorStoppedException("Communicator has exited.")
+mlagents_envs.exception.UnityCommunicatorStoppedException: Communicator has exited.

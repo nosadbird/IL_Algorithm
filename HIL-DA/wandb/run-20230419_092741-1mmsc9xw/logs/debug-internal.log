@@ -1,0 +1,154 @@
+2023-04-19 09:27:42,422 INFO    MainThread:11164 [internal.py:wandb_internal():93] W&B internal server running at pid: 11164, started at: 2023-04-19 09:27:42.422385
+2023-04-19 09:27:42,424 INFO    WriterThread:11164 [datastore.py:open_for_write():75] open: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\run-1mmsc9xw.wandb
+2023-04-19 09:27:42,426 DEBUG   SenderThread:11164 [sender.py:send():232] send: header
+2023-04-19 09:27:42,426 DEBUG   SenderThread:11164 [sender.py:send():232] send: run
+2023-04-19 09:27:42,985 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: check_version
+2023-04-19 09:27:42,987 INFO    SenderThread:11164 [dir_watcher.py:__init__():197] watching files in: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files
+2023-04-19 09:27:42,988 INFO    SenderThread:11164 [sender.py:_start_run_threads():814] run started: 1mmsc9xw with start time 1681867661
+2023-04-19 09:27:42,988 DEBUG   SenderThread:11164 [sender.py:send():232] send: summary
+2023-04-19 09:27:42,988 INFO    SenderThread:11164 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-04-19 09:27:42,988 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: check_version
+2023-04-19 09:27:43,554 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: run_start
+2023-04-19 09:27:43,989 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-summary.json
+2023-04-19 09:27:45,104 DEBUG   HandlerThread:11164 [meta.py:__init__():35] meta init
+2023-04-19 09:27:45,104 DEBUG   HandlerThread:11164 [meta.py:__init__():49] meta init done
+2023-04-19 09:27:45,104 DEBUG   HandlerThread:11164 [meta.py:probe():209] probe
+2023-04-19 09:27:45,110 DEBUG   HandlerThread:11164 [git.py:repo():29] git repository is invalid
+2023-04-19 09:27:45,110 DEBUG   HandlerThread:11164 [meta.py:_save_pip():53] save pip
+2023-04-19 09:27:45,111 DEBUG   HandlerThread:11164 [meta.py:_save_pip():67] save pip done
+2023-04-19 09:27:45,111 DEBUG   HandlerThread:11164 [meta.py:probe():247] probe done
+2023-04-19 09:27:45,114 DEBUG   SenderThread:11164 [sender.py:send():232] send: files
+2023-04-19 09:27:45,114 INFO    SenderThread:11164 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-04-19 09:27:45,122 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-19 09:27:45,122 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: stop_status
+2023-04-19 09:27:45,532 DEBUG   SenderThread:11164 [sender.py:send():232] send: telemetry
+2023-04-19 09:27:45,991 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log
+2023-04-19 09:27:45,991 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-metadata.json
+2023-04-19 09:27:45,992 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\requirements.txt
+2023-04-19 09:27:46,126 INFO    Thread-15 :11164 [upload_job.py:push():132] Uploaded file C:\Users\ADMINI~1\AppData\Local\Temp\tmppax9qfj5wandb\3futvhpr-wandb-metadata.json
+2023-04-19 09:27:47,993 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log
+2023-04-19 09:28:00,535 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-19 09:28:00,535 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: stop_status
+2023-04-19 09:28:02,005 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log
+2023-04-19 09:28:02,870 DEBUG   SenderThread:11164 [sender.py:send():232] send: telemetry
+2023-04-19 09:28:03,650 DEBUG   SenderThread:11164 [sender.py:send():232] send: exit
+2023-04-19 09:28:03,650 INFO    SenderThread:11164 [sender.py:send_exit():368] handling exit code: 1
+2023-04-19 09:28:03,650 INFO    SenderThread:11164 [sender.py:send_exit():370] handling runtime: 20
+2023-04-19 09:28:03,650 INFO    SenderThread:11164 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-04-19 09:28:03,650 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:03,651 INFO    SenderThread:11164 [sender.py:send_exit():376] send defer
+2023-04-19 09:28:03,651 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:03,651 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,651 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 0
+2023-04-19 09:28:03,651 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,651 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 0
+2023-04-19 09:28:03,651 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 1
+2023-04-19 09:28:03,652 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,652 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 1
+2023-04-19 09:28:03,676 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,676 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 1
+2023-04-19 09:28:03,677 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 2
+2023-04-19 09:28:03,677 DEBUG   SenderThread:11164 [sender.py:send():232] send: stats
+2023-04-19 09:28:03,677 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,677 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 2
+2023-04-19 09:28:03,677 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,677 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 2
+2023-04-19 09:28:03,677 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 3
+2023-04-19 09:28:03,678 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,678 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 3
+2023-04-19 09:28:03,678 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,678 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 3
+2023-04-19 09:28:03,678 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 4
+2023-04-19 09:28:03,678 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,678 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 4
+2023-04-19 09:28:03,678 DEBUG   SenderThread:11164 [sender.py:send():232] send: summary
+2023-04-19 09:28:03,679 INFO    SenderThread:11164 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-04-19 09:28:03,679 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,679 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 4
+2023-04-19 09:28:03,679 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 5
+2023-04-19 09:28:03,679 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:03,679 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 5
+2023-04-19 09:28:03,679 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:03,679 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 5
+2023-04-19 09:28:03,753 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:04,006 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log
+2023-04-19 09:28:04,007 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-summary.json
+2023-04-19 09:28:04,143 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 6
+2023-04-19 09:28:04,143 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:04,144 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:04,144 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 6
+2023-04-19 09:28:04,144 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:04,144 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 6
+2023-04-19 09:28:04,144 INFO    SenderThread:11164 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-04-19 09:28:04,245 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,006 INFO    Thread-11 :11164 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\config.yaml
+2023-04-19 09:28:05,007 INFO    SenderThread:11164 [dir_watcher.py:finish():342] scan: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files
+2023-04-19 09:28:05,007 INFO    SenderThread:11164 [dir_watcher.py:finish():356] scan save: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\config.yaml config.yaml
+2023-04-19 09:28:05,008 INFO    SenderThread:11164 [dir_watcher.py:finish():356] scan save: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log output.log
+2023-04-19 09:28:05,008 INFO    SenderThread:11164 [dir_watcher.py:finish():356] scan save: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\requirements.txt requirements.txt
+2023-04-19 09:28:05,013 INFO    SenderThread:11164 [dir_watcher.py:finish():356] scan save: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-metadata.json wandb-metadata.json
+2023-04-19 09:28:05,013 INFO    SenderThread:11164 [dir_watcher.py:finish():356] scan save: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-summary.json wandb-summary.json
+2023-04-19 09:28:05,019 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 7
+2023-04-19 09:28:05,019 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,025 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:05,025 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 7
+2023-04-19 09:28:05,026 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:05,026 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 7
+2023-04-19 09:28:05,026 INFO    SenderThread:11164 [file_pusher.py:finish():145] shutting down file pusher
+2023-04-19 09:28:05,121 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,121 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,224 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,224 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,329 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,329 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,432 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,432 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,534 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,534 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,635 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,635 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,737 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,737 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,839 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,839 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,943 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:05,943 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:05,954 INFO    Thread-18 :11164 [upload_job.py:push():132] Uploaded file E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\requirements.txt
+2023-04-19 09:28:05,961 INFO    Thread-19 :11164 [upload_job.py:push():132] Uploaded file E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\wandb-summary.json
+2023-04-19 09:28:06,005 INFO    Thread-17 :11164 [upload_job.py:push():132] Uploaded file E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\output.log
+2023-04-19 09:28:06,017 INFO    Thread-16 :11164 [upload_job.py:push():132] Uploaded file E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\files\config.yaml
+2023-04-19 09:28:06,046 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:06,047 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:06,150 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:06,151 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:06,219 INFO    Thread-10 :11164 [sender.py:transition_state():389] send defer: 8
+2023-04-19 09:28:06,219 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:06,219 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 8
+2023-04-19 09:28:06,219 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:06,219 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 8
+2023-04-19 09:28:06,255 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:06,500 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 9
+2023-04-19 09:28:06,500 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:06,501 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:06,502 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 9
+2023-04-19 09:28:06,502 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:06,503 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 9
+2023-04-19 09:28:06,503 INFO    SenderThread:11164 [sender.py:transition_state():389] send defer: 10
+2023-04-19 09:28:06,505 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: defer
+2023-04-19 09:28:06,506 DEBUG   SenderThread:11164 [sender.py:send():232] send: final
+2023-04-19 09:28:06,506 INFO    HandlerThread:11164 [handler.py:handle_request_defer():164] handle defer: 10
+2023-04-19 09:28:06,506 DEBUG   SenderThread:11164 [sender.py:send():232] send: footer
+2023-04-19 09:28:06,507 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: defer
+2023-04-19 09:28:06,507 INFO    SenderThread:11164 [sender.py:send_request_defer():385] handle sender defer: 10
+2023-04-19 09:28:06,608 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-19 09:28:06,608 DEBUG   SenderThread:11164 [sender.py:send_request():246] send_request: poll_exit
+2023-04-19 09:28:06,608 INFO    SenderThread:11164 [file_pusher.py:join():150] waiting for file pusher
+2023-04-19 09:28:07,615 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: sampled_history
+2023-04-19 09:28:07,617 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: get_summary
+2023-04-19 09:28:07,619 DEBUG   HandlerThread:11164 [handler.py:handle_request():141] handle_request: shutdown
+2023-04-19 09:28:07,619 INFO    HandlerThread:11164 [handler.py:finish():806] shutting down handler
+2023-04-19 09:28:08,506 INFO    WriterThread:11164 [datastore.py:close():279] close: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_092741-1mmsc9xw\run-1mmsc9xw.wandb
+2023-04-19 09:28:08,514 INFO    SenderThread:11164 [sender.py:finish():1110] shutting down sender
+2023-04-19 09:28:08,514 INFO    SenderThread:11164 [file_pusher.py:finish():145] shutting down file pusher
+2023-04-19 09:28:08,514 INFO    SenderThread:11164 [file_pusher.py:join():150] waiting for file pusher
+2023-04-19 09:28:08,514 INFO    MainThread:11164 [internal.py:handle_exit():80] Internal process exited

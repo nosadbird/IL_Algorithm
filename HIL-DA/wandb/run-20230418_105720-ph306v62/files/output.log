@@ -1,0 +1,19 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 2.3.0-exp.4 and communication version 1.5.0
+[INFO] Connected new brain: Worm?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+[WARNING] Could not seed environment Worm?team=0
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\gym\spaces\box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+D:\ProgramingEnvirment\python-3.7\lib\site-packages\torch\nn\functional.py:1949: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+e:/模仿学习/研究点1/pofo-worm/2IWIL.py:129: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:204.)
+  states = torch.Tensor(batch.state).to(device)
+Traceback (most recent call last):
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 339, in <module>
+    idm_train(state_ns,actions)
+  File "e:/模仿学习/研究点1/pofo-worm/2IWIL.py", line 196, in idm_train
+    actions = torch.Tensor(np.concatenate(actions))
+  File "<__array_function__ internals>", line 6, in concatenate
+TypeError: The first input argument needs to be a sequence

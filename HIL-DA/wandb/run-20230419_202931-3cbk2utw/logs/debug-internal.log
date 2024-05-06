@@ -1,0 +1,61 @@
+2023-04-19 20:29:32,440 INFO    MainThread:11216 [internal.py:wandb_internal():93] W&B internal server running at pid: 11216, started at: 2023-04-19 20:29:32.439441
+2023-04-19 20:29:32,442 INFO    WriterThread:11216 [datastore.py:open_for_write():75] open: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230419_202931-3cbk2utw\run-3cbk2utw.wandb
+2023-04-19 20:29:32,444 DEBUG   SenderThread:11216 [sender.py:send():232] send: header
+2023-04-19 20:29:32,444 DEBUG   SenderThread:11216 [sender.py:send():232] send: run
+2023-04-19 20:29:35,910 ERROR   SenderThread:11216 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\connectionpool.py", line 696, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\connectionpool.py", line 964, in _prepare_proxy
+    conn.connect()
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\connection.py", line 364, in connect
+    conn = self._connect_tls_proxy(hostname, conn)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\connection.py", line 507, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "D:\ProgramingEnvirment\python-3.7\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "D:\ProgramingEnvirment\python-3.7\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "D:\ProgramingEnvirment\python-3.7\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\ProgramingEnvirment\python-3.7\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))

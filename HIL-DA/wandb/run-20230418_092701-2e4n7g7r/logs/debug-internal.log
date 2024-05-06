@@ -1,0 +1,31 @@
+2023-04-18 09:27:02,778 INFO    MainThread:11560 [internal.py:wandb_internal():93] W&B internal server running at pid: 11560, started at: 2023-04-18 09:27:02.777143
+2023-04-18 09:27:02,786 INFO    WriterThread:11560 [datastore.py:open_for_write():75] open: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\run-2e4n7g7r.wandb
+2023-04-18 09:27:02,788 DEBUG   SenderThread:11560 [sender.py:send():232] send: header
+2023-04-18 09:27:02,789 DEBUG   SenderThread:11560 [sender.py:send():232] send: run
+2023-04-18 09:27:03,402 DEBUG   HandlerThread:11560 [handler.py:handle_request():141] handle_request: check_version
+2023-04-18 09:27:03,410 INFO    SenderThread:11560 [dir_watcher.py:__init__():197] watching files in: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files
+2023-04-18 09:27:03,411 INFO    SenderThread:11560 [sender.py:_start_run_threads():814] run started: 2e4n7g7r with start time 1681781221
+2023-04-18 09:27:03,411 DEBUG   SenderThread:11560 [sender.py:send():232] send: summary
+2023-04-18 09:27:03,412 INFO    SenderThread:11560 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-04-18 09:27:03,412 DEBUG   SenderThread:11560 [sender.py:send_request():246] send_request: check_version
+2023-04-18 09:27:04,421 INFO    Thread-16 :11560 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files\wandb-summary.json
+2023-04-18 09:27:06,764 DEBUG   HandlerThread:11560 [handler.py:handle_request():141] handle_request: run_start
+2023-04-18 09:27:09,580 DEBUG   HandlerThread:11560 [meta.py:__init__():35] meta init
+2023-04-18 09:27:09,580 DEBUG   HandlerThread:11560 [meta.py:__init__():49] meta init done
+2023-04-18 09:27:09,580 DEBUG   HandlerThread:11560 [meta.py:probe():209] probe
+2023-04-18 09:27:09,592 DEBUG   HandlerThread:11560 [git.py:repo():29] git repository is invalid
+2023-04-18 09:27:09,592 DEBUG   HandlerThread:11560 [meta.py:_save_pip():53] save pip
+2023-04-18 09:27:09,599 DEBUG   HandlerThread:11560 [meta.py:_save_pip():67] save pip done
+2023-04-18 09:27:09,599 DEBUG   HandlerThread:11560 [meta.py:probe():247] probe done
+2023-04-18 09:27:09,604 DEBUG   SenderThread:11560 [sender.py:send():232] send: files
+2023-04-18 09:27:09,604 INFO    SenderThread:11560 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-04-18 09:27:09,618 DEBUG   HandlerThread:11560 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:27:09,618 DEBUG   SenderThread:11560 [sender.py:send_request():246] send_request: stop_status
+2023-04-18 09:27:10,038 DEBUG   SenderThread:11560 [sender.py:send():232] send: telemetry
+2023-04-18 09:27:10,417 INFO    Thread-16 :11560 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files\output.log
+2023-04-18 09:27:10,418 INFO    Thread-16 :11560 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files\requirements.txt
+2023-04-18 09:27:10,418 INFO    Thread-16 :11560 [dir_watcher.py:_on_file_created():244] file/dir created: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files\wandb-metadata.json
+2023-04-18 09:27:10,760 INFO    Thread-20 :11560 [upload_job.py:push():132] Uploaded file C:\Users\ADMINI~1\AppData\Local\Temp\tmp9r27tb7lwandb\2snr3d5b-wandb-metadata.json
+2023-04-18 09:27:14,423 INFO    Thread-16 :11560 [dir_watcher.py:_on_file_modified():257] file/dir modified: E:\模仿学习\研究点1\pofo-worm\wandb\run-20230418_092701-2e4n7g7r\files\output.log
+2023-04-18 09:27:25,041 DEBUG   HandlerThread:11560 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-18 09:27:25,042 DEBUG   SenderThread:11560 [sender.py:send_request():246] send_request: stop_status
